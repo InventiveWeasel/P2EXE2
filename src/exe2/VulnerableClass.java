@@ -18,6 +18,7 @@ public class VulnerableClass {
 			return false;
 		}
 		
+		//While retirado, uma vez que pode causar DOS
 	    Scanner console = new Scanner(System.in);
 	    System.out.print("Digite a operacao desejada para realizar no arquivo <R para ler um arquivo, "
 	    		+ "W para escrever em um arquivo>? ");
