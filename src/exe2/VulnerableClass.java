@@ -49,6 +49,9 @@ public class VulnerableClass {
 					System.out.println("Escreva algo: ");
 				    linha = console.nextLine();
 				    buffWrite.append(linha + "\n");
+				    
+				    //Buffer precisa ser fechado para efetuar as alterações
+				    buffWrite.close();
 				     
 				} catch (IOException e) {
 					e.printStackTrace();
